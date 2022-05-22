@@ -1,0 +1,25 @@
+.full-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fec7f7;
+  color: #740abb;
+  box-shadow: 0 0 3px #9809b4;
+  width: 80%;
+  min-height: 50px;
+  margin: 20px 0;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.full-comment button {
+  margin-top: 20px;
+  border: none;
+  background-color: #9809b4;
+  color: #fec7f7;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.full-comment p {
+  word-wrap: break-word;
+}

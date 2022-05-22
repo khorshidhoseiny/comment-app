@@ -1,0 +1,26 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #730e92;
+}
+
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  padding: 16px 16px;
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: #b442e08a;
+}
+
+.activeLink {
+  background-color: #b442e08a;
+}

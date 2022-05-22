@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.comment-section {
+  width: 100%;
+  margin-top: 10px;
+}
+.comment-section a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
